@@ -8,5 +8,10 @@ export default {
     extend: {},
   },
   plugins: [],
+
+  fontFamily: {
+    sans: ['Mulish', 'sans-serif'], /* Polices de base, À COMPLETER */
+    serif: ['Space Mono', 'monospace']
+  },
 }
 
