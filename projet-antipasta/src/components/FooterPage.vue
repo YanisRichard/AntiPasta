@@ -40,7 +40,7 @@ import IconPinterest from './icons/IconPinterest.vue';
     </div>
 
     <div>
-      <li class="ml-2 mr-2 pt-4 text-center text-xs font-semibold">A Propos - Contact - Mentions Légales - CGU - Protection des données personnelles - Cookies </li>
+      <li class="ml-2 mr-2 pt-4 pb-4 text-center text-xs font-semibold ">A Propos - Contact - Mentions Légales - CGU - Protection des données personnelles - Cookies </li>
     </div>
       </ul>
      </div>
