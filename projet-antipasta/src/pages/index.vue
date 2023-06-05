@@ -10,18 +10,18 @@
   </div>
 
   <div>
-    <ul class="bg-Gris1 pb-4 place-items-center">
-      <img class="flex justify-center" src="public/img/106_523409951.webp" alt="">
-        <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes de la Semaine</li>
+    <ul class="bg-Gris1 pb-4">
+      <img class="flex" src="public/img/106_523409951.webp" alt="Un repas">
+        <li class="bg-Jaune rounded-xl mt-4 ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes de la Semaine</li>
     </ul>
 
     <ul class="bg-Gris1 pb-6">
-      <img class="pt-6 pb-2 bg-Gris1" src="public/img/59380_w1024h768c1cx2808cy1872.webp" alt="Une délicieuse fondue savoyarde">
+      <img class="flex pt-6 pb-2 bg-Gris1 place-items-center" src="public/img/59380_w1024h768c1cx2808cy1872.webp" alt="Une délicieuse fondue savoyarde">
       <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes de Saison</li>
     </ul>
 
     <ul class="bg-Gris1 pb-8">
-      <img class="pt-4 pb-2 bg-Gris1" src="public/img/i145484-pizza-saint-valentin-pizza-forme-de-coeur.webp" alt="">
+      <img class="pt-4 pb-2 bg-Gris1" src="public/img/i145484-pizza-saint-valentin-pizza-forme-de-coeur.webp" alt="Une pizza en forme de coeur">
       <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes Favorites</li>
     </ul>
   </div>
