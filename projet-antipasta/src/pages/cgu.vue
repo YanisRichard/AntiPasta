@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="mx-20  my-10">
+    <div class="lg:mx-20 mx-10 my-10">
         <h1 class="my-5">Conditions générales d'utilisation</h1>
 
         <p>Bienvenue sur notre site Anti-Pasta. En utilisant notre site, vous acceptez les présentes conditions générales d'utilisation. Si vous n'êtes pas d'accord avec ces conditions, veuillez ne pas utiliser le site.</p>
