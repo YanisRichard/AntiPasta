@@ -7,11 +7,4 @@ export async function ListeProfil(){
 
 };
 
-
-
-export async function recettesbysaison(saison){
-    const recettesbysaison = await pb.collection('recette').getFullList();
-    // const recettesbysaison = recettes.filter(recette => recette.saison == saison);
-    return recettesbysaison;
-}
-
+export async function recettesbysaison
