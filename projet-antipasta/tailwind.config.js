@@ -31,8 +31,8 @@ module.exports = {
      },
 
      fontFamily: {
-      "caveat": "Caveat",
-      "arial": "Arial"
+      caveat: ["Caveat", 'sans-serif'],
+      arial: ["Arial", 'sans-serif'],
      },
      borderRadius: {
       none: '0',
