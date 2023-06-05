@@ -4,7 +4,7 @@
 
 @layer components {
   .menu-link {
-    @apply block px-5 py-4;
+    @apply block px-5 py-4 lg:py-8;
   }
 }
 
@@ -14,6 +14,25 @@
   }
 }
 
+.menu-item {
+  @apply relative overflow-hidden lg:before:absolute lg:before:bottom-0 lg:before:left-0 lg:before:h-2 lg:before:w-full lg:before:translate-y-2 lg:before:bg-black lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:hover:before:translate-y-0;
+}
+
+p {
+  @apply text-base font-arial  
+}
+
+h1 {
+  @apply text-4xl font-caveat
+}
+
+h2 {
+  @apply text-3xl font-caveat
+}
+
+h3 {
+  @apply text-2xl font-caveat
+}
 
 
   
