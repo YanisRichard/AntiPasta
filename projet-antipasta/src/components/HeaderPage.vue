@@ -12,7 +12,7 @@ import { ref, computed, watch } from 'vue'
 </script>
 
 <template>
-  <header class="z-10 flex w-full translate-y-0 items-stretch justify-between bg-Gris2 px-6 py-2 transition-all duration-300 ease-in-out lg:py-0">
+  <header class="relative z-10 flex w-full translate-y-0 items-stretch justify-between bg-Gris2 px-6 py-2 transition-all duration-300 ease-in-out lg:py-0">
     <div class="flex items-center">
       <a href="/">
         <LogoIcon />
@@ -32,7 +32,7 @@ import { ref, computed, watch } from 'vue'
 
 			<nav class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-Gris2 text-2xl text-white transition-all duration-300 ease-in-out lg:visible lg:relative lg:flex lg:h-auto lg:w-auto lg:items-center lg:bg-transparent lg:text-sm lg:font-bold lg:uppercase lg:tracking-wide lg:text-black lg:opacity-100" :class="{ '!visible opacity-100': activeMenu }" v-scroll-lock="activeMenu">
 		    <ul class="mt-[25vh] ml-16 lg:m-0 lg:flex">
-		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Recettes de Saison</RouterLink></li>
+		      <li class="menu-item"><RouterLink class="menu-link" to="/recettedesaison" @click="closeMenu">Recettes de Saison</RouterLink></li>
 		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Mon profil</RouterLink></li>
 		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Se connecter / S'inscrire</RouterLink></li>
 		    </ul>
