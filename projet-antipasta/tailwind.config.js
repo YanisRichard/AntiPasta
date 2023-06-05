@@ -11,7 +11,8 @@ module.exports = {
       Jaune: "#ffd130",
       Gris1: "#f5f5f5",
       Typoajoutgrisnoir: "#5d5d5d",
-      GrisNoir: "#7e7e7e",,
+      GrisNoir: "#7e7e7e",
+      FondCase: "#d9d9d9" ,
       black: "#000000",
      },
     
