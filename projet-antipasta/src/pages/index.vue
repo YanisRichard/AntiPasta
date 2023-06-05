@@ -1,4 +1,3 @@
-
 <template>
   <div class="text-center bg-Gris1 ">
     <h1 >Anti-Pasta</h1>
@@ -11,8 +10,8 @@
   </div>
 
   <div>
-    <ul class="bg-Gris1 pb-4">
-      <img src="public/img/106_523409951.webp" alt="">
+    <ul class="bg-Gris1 pb-4 place-items-center">
+      <img class="flex justify-center" src="public/img/106_523409951.webp" alt="">
         <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes de la Semaine</li>
     </ul>
 
