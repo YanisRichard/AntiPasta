@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
-	import LogoIcon from '@/components/icons/IconLogo.vue'
+	import LogoIcon from '@/components/icons/IconAntiPasta.vue'
 	import SearchIcon from '@/components/icons/IconSearch.vue'
   import { RouterLink } from 'vue-router'
 
