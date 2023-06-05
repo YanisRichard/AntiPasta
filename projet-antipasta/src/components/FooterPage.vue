@@ -10,9 +10,10 @@ import IconTwitter from './icons/IconTwitter.vue';
       <div class="grid grid-cols-1 pt-4 place-items-center">
         <IconAntiPasta/>
       </div>
+
      <div>
       <ul>
-        <li class="font-caveat text-center ">Newsletter</li>
+        <li class="font-caveat text-center text-2xl pt-4   ">Newsletter</li>
       </ul>
      </div>
     </footer>

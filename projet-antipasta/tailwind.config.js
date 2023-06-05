@@ -13,19 +13,22 @@ module.exports = {
       Typoajoutgrisnoir: "#5d5d5d"
      },
     
-     fontSize: {
-      xl: "1rem",
-      IIxl: "1.125rem",
-      IIIxl: "1.25rem",
-      IVxl: "1.5rem",
-      Vxl: "1.875rem",
-      VIxl: "2.25rem",
-      VIIxl: "3rem",
-      VIIIxl: "3.75rem",
-      IXxl: "4.5rem",
-      Xxl: "6rem",
-      XIxl: "8rem"
+     "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "3.75rem",
+      "7xl": "4.5rem",
+      "8xl": "6rem",
+      "9xl": "8rem"
      },
+
      fontFamily: {
       nunitosans: ['Nunito Sans', 'sans-serif'],
       montserrat: ['Montserrat', 'sans-serif'],
