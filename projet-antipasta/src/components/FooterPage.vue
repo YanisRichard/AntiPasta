@@ -6,12 +6,10 @@ import IconTwitter from './icons/IconTwitter.vue';
 </script>
 
 <template>
-    <footer class="grid grid-cols-2 space-y-3 bg-Bleu-Estompe text-Noir-Fonce">
+    <footer class="space-y-3 bg-grey text-black">
       <ul>
-        <li class="flex flex-row pt-4">
-          <IconAntiPasta/>
-        </li>
-        <li class="font-caveat text-center text-noir ">
+          <IconAntiPasta class="flex item-center "/>
+        <li class="font-Caveat text-center text-noir pt-4 ">
           <h1>Newsletter</h1>
         </li>
         <li class="font-arial text-center text-gris h-4 ">

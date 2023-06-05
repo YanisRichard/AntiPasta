@@ -5,10 +5,10 @@ module.exports = {
 
     
       "colors": {
-       "Header + Footer + Menu": "#e8e8e8",
+       "Gris2": "#e8e8e8",
        "Jaune": "#ffd130",
-       "Fond": "#f5f5f5",
-       "Typo ajout recette": "#5d5d5d"
+       "Gris1": "#f5f5f5",
+       "Typo ajout gris-noir": "#5d5d5d"
       },
       "fontSize": {
        "sm": "0.75rem",
