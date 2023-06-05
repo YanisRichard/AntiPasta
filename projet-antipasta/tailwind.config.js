@@ -10,7 +10,8 @@ module.exports = {
       Gris2: "#e8e8e8",
       Jaune: "#ffd130",
       Gris1: "#f5f5f5",
-      Typoajoutgrisnoir: "#5d5d5d"
+      Typoajoutgrisnoir: "#5d5d5d",
+      GrisNoir: "#7e7e7e",
      },
     
      "fontSize": {

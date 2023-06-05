@@ -14,6 +14,7 @@ import IconTwitter from './icons/IconTwitter.vue';
      <div>
       <ul>
         <li class="font-caveat text-center text-2xl pt-4   ">Newsletter</li>
+        <li class="text-center text-xs text-GrisNoir">N’hésitez pas à vous inscrire à notre newsletter afin de recevoir les meilleures recettes hebdomadaires de notre site !</li>
       </ul>
      </div>
     </footer>
