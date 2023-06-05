@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
-	import LogoIcon from '@/components/icons/IconLogo.vue'
+	import LogoIcon from '@/components/icons/IconAntiPastaSite.vue'
 	import SearchIcon from '@/components/icons/IconSearch.vue'
   import { RouterLink } from 'vue-router'
 
@@ -21,12 +21,12 @@ import { ref, computed, watch } from 'vue'
       </button>
 
       <button class="relative z-10 flex h-5 w-8 flex-col justify-between" @click="activeMenu = !activeMenu">
-        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ 'translate-y-[9px] rotate-45 bg-white': activeMenu }"></div>
-        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ 'bg-white opacity-0': activeMenu }"></div>
-        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ '-translate-y-[9px] -rotate-45 bg-white': activeMenu }"></div>
+        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ 'translate-y-[9px] rotate-45 bg-black': activeMenu }"></div>
+        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ 'bg-black opacity-0': activeMenu }"></div>
+        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ '-translate-y-[9px] -rotate-45 bg-black': activeMenu }"></div>
       </button>
 
-			<nav class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-indigo text-2xl text-white transition-all duration-300 ease-in-out" :class="{ '!visible opacity-100': activeMenu }">
+			<nav class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-Gris2 text-2xl text-white transition-all duration-300 ease-in-out" :class="{ '!visible opacity-100': activeMenu }">
 		    <ul class="mt-[25vh] ml-16">
 		      <li><RouterLink class="menu-link" to="/">Recettes de Saison</RouterLink></li>
 		      <li><RouterLink class="menu-link" to="/">Contact</RouterLink></li>
