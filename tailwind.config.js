@@ -8,7 +8,7 @@ module.exports = {
        "Gris2": "#e8e8e8",
        "Jaune": "#ffd130",
        "Gris1": "#f5f5f5",
-       "Typo ajout gris-noir": "#5d5d5d"
+       "Typo-ajout-gris-noir": "#5d5d5d"
       },
       "fontSize": {
        "sm": "0.75rem",
