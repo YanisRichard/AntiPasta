@@ -19,11 +19,19 @@
 }
 
 p {
-  @apply text-base font-arial
+  @apply text-base font-arial  
 }
 
 h1 {
-  @apply text-3xl font-arial
+  @apply text-4xl font-caveat
+}
+
+h2 {
+  @apply text-3xl font-caveat
+}
+
+h3 {
+  @apply text-2xl font-caveat
 }
 
 

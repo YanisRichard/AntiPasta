@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div>
-        <h1>CGU</h1>
+    <div class="mx-20  my-">
+        <h1>Conditions générales d'utilisation</h1>
     </div>
 </template>
