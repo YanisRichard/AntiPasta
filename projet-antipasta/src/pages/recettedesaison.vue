@@ -5,7 +5,7 @@
 
 <div class="grid lg:grid-cols-2 lg:gap-4 mb-20">
 
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-20">
         <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
             <img class="rounded-t-lg" src="../../public/ete.webp" alt="Fond été" />
             <div class="p-5">
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-20">
         <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
             <img class="rounded-t-lg" src="../../public/printemps.webp" alt="Fond printanier" />
             <div class="p-5">
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-20">
         <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
             <img class="rounded-t-lg" src="../../public/automne.webp" alt="Fond automnal" />
             <div class="p-5">
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-20">
         <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
             <img class="rounded-t-lg" src="../../public/hiver.webp" alt="Fond hivernal" />
             <div class="p-5">
