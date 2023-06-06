@@ -34,7 +34,7 @@ import { ref, computed, watch } from 'vue'
 		    <ul class="mt-[25vh] ml-16 lg:m-0 lg:flex">
 		      <li class="menu-item"><RouterLink class="menu-link" to="/recettedesaison" @click="closeMenu">Recettes de Saison</RouterLink></li>
 		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Mon profil</RouterLink></li>
-		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Se connecter / S'inscrire</RouterLink></li>
+		      <li class="menu-item"><RouterLink class="menu-link" to="/connexion" @click="closeMenu">Se connecter / S'inscrire</RouterLink></li>
 		    </ul>
 		  </nav>
     </div>

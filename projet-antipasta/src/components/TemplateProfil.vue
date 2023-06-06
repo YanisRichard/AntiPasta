@@ -1,16 +1,17 @@
 <script setup lang="ts">
 import { pb } from '@/backend' ;
 import type { ProfilResponse } from '@/pocketbase-types'
-import { ListeProfil } from '@/backend';
 import { Oneprofil } from '@/backend'
-import TemplateProfil from '@/components/TemplateProfil.vue'
 
 const props: ProfilResponse = defineProps<ProfilResponse>()
-const unprofil = await Oneprofil(props.id);
+const img0= props.PhotoProfil
+const urlImg = pb.files.getUrl(props, img0, { thumb: '100x200' })
+
+
 </script>
 
 <template>
-<div>
-    <TemplateProfil v-bind="{...unprofil}"/>
-</div>
+    
+<p>test</p>
+
 </template>

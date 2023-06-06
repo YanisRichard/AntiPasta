@@ -34,12 +34,12 @@ const Pageprofile = await ListeProfil();
 
     <ul class="bg-Gris1 pb-8">
       <img class="pt-4 pb-2 bg-Gris1" src="public/img/i145484-pizza-saint-valentin-pizza-forme-de-coeur.webp" alt="Une pizza en forme de coeur">
-      <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes Favorites</li>
+      <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Liste des profils</li>
     </ul>
   </div>
 
 <div>
-  <ul class="grid lg:grid-cols-4 lg:gap-8 grid-cols-2 gap-4">
+  <ul class="grid lg:grid-cols-3 lg:gap-32 bg-Gris1">
     <li v-for="unprofil of Pageprofile" v-bind="{...unprofil}">
       <RouterLink :to="{ name: 'profil-id', params: { id: unprofil.id } }">
         <TemplateProfilCard v-bind= "{...unprofil}"/>
