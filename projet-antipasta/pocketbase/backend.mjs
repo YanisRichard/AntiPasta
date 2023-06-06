@@ -7,4 +7,15 @@ export async function ListeProfil(){
 
 };
 
-export async function recettesbysaison
+export async function ListeRecette(){
+    const RecetteRecords = await pb.collection('recette').getFullList();
+    return RecetteRecords;
+}
+
+// export async function Recettesparsaisons(){
+//     const RecettesRecords = await pb.collection('recette').getFullList({
+//         filter: recette.Saisons = '${Saisons}' ,
+//         expand: 'recette',
+//     });
+//     return RecettesRecords;
+// }

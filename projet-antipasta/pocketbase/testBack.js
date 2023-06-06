@@ -1,5 +1,5 @@
-import { ListeProfil } from "./backend.mjs";
-import { recettesclassedbysaison } from "./backend.mjs";
+// import { ListeProfil } from "./backend.mjs";
+import { ListeRecette } from "./backend.mjs";
 
 // // try {
 // //     const records = await ListeProfil();
@@ -16,8 +16,8 @@ import { recettesclassedbysaison } from "./backend.mjs";
 // }
 
 try{
-    const recettesRecords = await recettesclassedbysaison('Hiver');
-    console.log(JSON.stringify(recettesRecords, null, 2));
+    const RecetteRecords = await ListeRecette();
+    console.log(JSON.stringify(RecetteRecords, null, 2));
 } catch (e) {
     console.error(e);
 }
