@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { Oneprofil } from '@/backend';
 import Profil from './[Profil].vue';
-import { ProfilRecord } from '@/pocketbase-types';
+// import { ProfilRecord } from '@/pocketbase-types';
 import { RouterLink } from 'vue-router';
+import TemplateProfilCard from '@/components/TemplateProfilCard.vue';
+import { ListeProfil } from '@/backend';
 
-const Pageprofile = await Oneprofil('wymleqxj87ntbr9');
+const Pageprofile = await ListeProfil();
 
 </script>
 
@@ -37,8 +39,13 @@ const Pageprofile = await Oneprofil('wymleqxj87ntbr9');
   </div>
 
 <div>
-  <li 
-<RouterLink :to="{ name : 'ppp-id', params:{ id:v-key.id}}"></RouterLink>
+  <ul class="grid lg:grid-cols-4 lg:gap-8 grid-cols-2 gap-4">
+    <li v-for="unprofil of Pageprofile" v-bind="{...unprofil}">
+      <RouterLink :to="{ name: 'profil-id', params: { id: unprofil.id } }">
+        <TemplateProfilCard v-bind= "{...unprofil}"/>
+      </RouterLink>
+    </li>
+  </ul>
 </div>
 
                 
