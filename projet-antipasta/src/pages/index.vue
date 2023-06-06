@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Oneprofil } from '@/backend';
 import Profil from './[Profil].vue';
+import { ProfilRecord } from '@/pocketbase-types';
+import { RouterLink } from 'vue-router';
 
 const Pageprofile = await Oneprofil('wymleqxj87ntbr9');
 
@@ -34,8 +36,10 @@ const Pageprofile = await Oneprofil('wymleqxj87ntbr9');
     </ul>
   </div>
 
-<RouterLink :to="{ name : 'Profil', params:{ Profil: Pageprofile}}"></RouterLink>
-
+<div>
+  <li 
+<RouterLink :to="{ name : 'ppp-id', params:{ id:v-key.id}}"></RouterLink>
+</div>
 
                 
 </template>

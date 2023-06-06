@@ -8,7 +8,10 @@ import FooterPage from './components/FooterPage.vue';
   <HeaderPage/>
 
    <main>
+
+    <Suspense>
     <RouterView />
+  </Suspense>
   </main>
 
   <FooterPage />
