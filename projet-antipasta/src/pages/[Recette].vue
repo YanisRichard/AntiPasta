@@ -5,28 +5,30 @@ import type { RecetteRecord } from '@/pocketbase-types';
 import type { RouterLinkProps } from 'vue-router';
 import type { RouterViewProps } from 'vue-router';
 
-const id = defineProps<{ Recette : string }>();
-const recette = await Onerecette(id.Recette);
-const img0 = recette.PhotoRecette
-const urlImg = pb.getFileUrl(recette, img0, {thumb: '306x218'});
+const props: RecetteResponse = defineProps<RecetteResponse>();
+
+const img0= props.PhotoRecette
+const urlImg = pb.getFileUrl(props, img0, {thumb: '306x218'});
+
+const info = await Onerecette(props.id);
 </script>
 
 <template>
     <main class="ml-6 mr-6 mt-4 ">
         <div>
-            <h2>{{ recette.NomRecette }}</h2>
+            <h2>{{ NomRecette }}</h2>
             <div class="flex justify-center">
                 <img :src="urlImg" alt="PhotoRecette">
             </div>
             <div>
-                {{ recette.Duree }}
+                {{ Duree }}
             </div>
-            <div>{{ recette.Nb_Personnes }}</div>
+            <div>{{ Nb_Personnes }}</div>
             <div>
-                {{ recette.Ingredients }}
+                {{ Ingredients }}
             </div>
             <div>
-                {{ recette.Recette }}
+                {{ Recette }}
             </div>
             <div>
 
