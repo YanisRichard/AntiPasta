@@ -61,6 +61,7 @@
     </div>
 
     <div class="flex justify-center mb-20">
+        <a href="/recettes/recettes_hiver">
         <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
             <img class="rounded-t-lg" src="../../public/hiver.webp" alt="Fond hivernal" />
             <div class="p-5">
@@ -74,6 +75,7 @@
                 </a>
             </div>
         </div>
+    </a>
     </div>
 </div>
 

@@ -39,14 +39,7 @@ export type ProfilRecord = {
 	PhotoProfil?: string
 	Mail?: string
 	MotDePasse?: string
-}
-
-export enum RecetteSaisonOptions {
-	"Été" = "Été",
-	"Hiver" = "Hiver",
-	"Printemps" = "Printemps",
-	"Automne" = "Automne",
-	"Toutes saisons" = "Toutes saisons",
+	profil?: string
 }
 
 export enum RecetteTypeOptions {
@@ -70,11 +63,11 @@ export type RecetteRecord = {
 	Ingredients?: string
 	Recette?: string
 	Note?: number
-	Saison?: RecetteSaisonOptions[]
 	Type?: RecetteTypeOptions[]
 	Duree?: RecetteDureeOptions[]
 	CreePar?: RecordIdString
 	PhotoRecette?: string
+	Saisons?: string
 }
 
 export type UsersRecord = {

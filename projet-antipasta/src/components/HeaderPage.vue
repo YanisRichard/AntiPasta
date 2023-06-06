@@ -20,9 +20,6 @@ import { ref, computed, watch } from 'vue'
     </div>
 
     <div class="flex items-center gap-4 lg:flex-row-reverse">
-      <button>
-        <SearchIcon />
-      </button>
 
       <button class="relative z-10 flex h-5 w-8 flex-col justify-between lg:hidden" @click="activeMenu = !activeMenu">
         <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300" :class="{ 'translate-y-[9px] rotate-45 bg-black': activeMenu }"></div>
