@@ -48,9 +48,9 @@ import { Oneprofil } from "./backend.mjs";
 //     console.error(e);
 // }
 
-// try{
-//     const OneprofilrecordID = await Oneprofil("wymleqxj87ntbr9");
-//     console.log(JSON.stringify(OneprofilrecordID, null, 2));
-// } catch (e) {
-//     console.error(e);
-// }
+try{
+    const OneprofilrecordID = await Oneprofil("wymleqxj87ntbr9");
+    console.log(JSON.stringify(OneprofilrecordID, null, 2));
+} catch (e) {
+    console.error(e);
+}

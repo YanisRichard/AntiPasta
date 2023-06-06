@@ -1,3 +1,11 @@
+<script setup lang="ts">
+import { Oneprofil } from '@/backend';
+import Profil from './[Profil].vue';
+
+const Pageprofile = await Oneprofil('wymleqxj87ntbr9');
+
+</script>
+
 <template>
   <div class="text-center bg-Gris1 ">
     <h1 >Anti-Pasta</h1>
@@ -25,4 +33,9 @@
       <li class="bg-Jaune rounded-xl mt-4  ml-6 mr-6 text-center text-xl font-bold font-caveat">Recettes Favorites</li>
     </ul>
   </div>
+
+<RouterLink :to="{ name : 'Profil', params:{ Profil: Pageprofile}}"></RouterLink>
+
+
+                
 </template>
