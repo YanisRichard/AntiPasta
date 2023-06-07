@@ -30,8 +30,8 @@ import { ref, computed, watch } from 'vue'
 			<nav class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-Gris2 text-2xl text-white transition-all duration-300 ease-in-out lg:visible lg:relative lg:flex lg:h-auto lg:w-auto lg:items-center lg:bg-transparent lg:text-sm lg:font-bold lg:uppercase lg:tracking-wide lg:text-black lg:opacity-100" :class="{ '!visible opacity-100': activeMenu }" v-scroll-lock="activeMenu">
 		    <ul class="mt-[25vh] ml-16 lg:m-0 lg:flex">
 		      <li class="menu-item"><RouterLink class="menu-link" to="/recettedesaison" @click="closeMenu">Recettes de Saison</RouterLink></li>
-		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Mon profil</RouterLink></li>
-		      <li class="menu-item"><RouterLink class="menu-link" to="/connexion" @click="closeMenu">Se connecter / S'inscrire</RouterLink></li>
+		      <li class="menu-item"><RouterLink class="menu-link" to="/profils" @click="closeMenu">Profils</RouterLink></li>
+		      <li class="menu-item"><RouterLink class="menu-link" to="/connexion" @click="closeMenu">Connexion / Inscription</RouterLink></li>
 		    </ul>
 		  </nav>
     </div>

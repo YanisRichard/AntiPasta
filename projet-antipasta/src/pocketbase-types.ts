@@ -62,6 +62,14 @@ export type RecetteRecord = {
 	Favori?: boolean
 	Ingredients?: string
 	Recette?: string
+	Recette2?: string
+	Recette3?: string
+	Recette4?: string
+	Recette5?: string
+	Recette6?: string
+	Recette7?: string
+	Recette8?: string
+	Recette9?: string
 	Note?: number
 	Type?: RecetteTypeOptions[]
 	Duree?: RecetteDureeOptions[]

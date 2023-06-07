@@ -3,11 +3,15 @@
 </script>
 
 <template>
-    <div class="grid lg:grid-cols-2 lg:gap-4 mb-20">
+
+<div class="lg:mx-20 mx-10 my-10 flex justify-center">
+        <h1 class="my-5">Recettes hivernales</h1>
+        </div>
+<div class="grid lg:grid-cols-2 lg:gap-4 my-20">
 
 <div class="flex justify-center mb-20">
 
-    <a href="/recettes/recettesete">
+<RouterLink to="/recette/o89csq7v866u3r6">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/fonduesavoyarde.webp" alt="Fond été" />
         <div class="p-5">
@@ -21,11 +25,12 @@
             </a>
         </div>
     </div>
-</a>
+</RouterLink>
+
 </div>
 
 <div class="flex justify-center mb-20">
-    <a href="/recettes/recettes_printemps">
+    <RouterLink to="/recette/re6ekznebq5w1ps">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/chakchouka.webp" alt="Fond printanier" />
         <div class="p-5">
@@ -39,11 +44,11 @@
             </a>
         </div>
     </div>
-    </a>
+    </RouterLink>
 </div>
 
 <div class="flex justify-center mb-20">
-    <a href="/recettes/recettes_automne">
+    <RouterLink to="/recette/ycps45kmy99jlc0">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/flamicheaumaroile.webp" alt="Fond automnal" />
         <div class="p-5">
@@ -57,9 +62,10 @@
             </a>
         </div>
     </div>
-    </a>
+    </RouterLink>
 </div>
 
+<RouterLink to="/recette/pvveux54iws0s8b">
 <div class="flex justify-center mb-20">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/tartechèvrejambon.webp" alt="Fond hivernal" />
@@ -75,8 +81,11 @@
         </div>
     </div>
 </div>
+</RouterLink>
+
 
 <div class="flex justify-center mb-20">
+    <RouterLink to="/recette/8ds56ota0s01mi4">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/soupehiver.webp" alt="Fond hivernal" />
         <div class="p-5">
@@ -90,9 +99,11 @@
             </a>
         </div>
     </div>
+    </RouterLink>
 </div>
 
 <div class="flex justify-center mb-20">
+    <RouterLink to="/recette/ut12aeirz5hjbf2">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/profiterole.webp" alt="Fond hivernal" />
         <div class="p-5">
@@ -106,9 +117,11 @@
             </a>
         </div>
     </div>
+    </RouterLink>
 </div>
 
 <div class="flex justify-center mb-20">
+<RouterLink to="/recette/si147ffavv7d40y">
     <div class="max-w-sm bg-white border rounded-lg transition-transform duration-300 transform-gpu hover:scale-105">
         <img class="rounded-t-lg" src="../../../public/risotto.webp" alt="Fond hivernal" />
         <div class="p-5">
@@ -122,6 +135,7 @@
             </a>
         </div>
     </div>
+</RouterLink>
 </div>
 </div>
 </template>

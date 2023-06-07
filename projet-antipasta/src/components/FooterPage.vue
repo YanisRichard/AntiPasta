@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import IconAntiPasta from './icons/IconAntiPasta.vue';
 import IconInstagram from './icons/IconInstagram.vue';
 import IconTwitter from './icons/IconTwitter.vue';
@@ -21,8 +21,8 @@ import IconPinterest from './icons/IconPinterest.vue';
         <form action="" method="get">
 
           <div class="grid grid-cols-1">
-            <label class="ml-4 pb-2 " for="email">Indiquez votre e-mail: </label>
-            <input class="mr-8 ml-8 rounded-default border border-r-black bg-FondCase" type="email" name="email" id="email"/>
+            <label class="ml-80 pb-2 " for="email">Indiquez votre e-mail: </label>
+            <input class="mr-80 ml-80 rounded-default border border-r-black bg-FondCase" type="email" name="email" id="email"/>
           </div>
 
           <div class="grid grid-cols-1 mt-4 place-items-center">
@@ -40,9 +40,75 @@ import IconPinterest from './icons/IconPinterest.vue';
     </div>
 
     <div>
-      <li class="ml-2 mr-2 pt-4 pb-4 text-center text-xs font-semibold font-arial">A Propos - Contact - Mentions Légales - CGU - Protection des données personnelles - Cookies </li>
+      <ul class="ml-2 mr-2 pt-4 pb-4 text-center text-xs font-semibold font-arial flex justify-center">
+        <li><a href="apropos">À Propos -</a></li>
+        <li><a href="contact">- Contact -</a></li>
+        <li><a href="mlg">- Mentions Légales -</a></li>
+        <li><a href="cgu">- CGU -</a></li>
+        <li><a href="ppd">- Protection des données personnelles -</a></li>
+        <li><a href="page404">- Cookies</a></li>
+      </ul>
+
+      <p class="text-center text-GrisNoir text-xs">
+        Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard
+      </p>
     </div>
       </ul>
      </div>
     </footer>
-  </template>
+  </template> -->
+
+  <script setup lang="ts">
+	import FacebookIcon from '@/components/icons/IconFacebook.vue'
+	import TwitterIcon from '@/components/icons/IconTwitter.vue'
+	import YoutubeIcon from '@/components/icons/IconYoutube.vue'
+	import InstagramIcon from '@/components/icons/IconInstagram.vue'
+	import LogoFooterIcon from '@/components/icons/IconAntiPastaSite.vue'
+</script>
+
+<template>
+  <footer class="grille space-y-6 bg-Gris2 py-16 px-6 lg:space-y-0">
+		<LogoFooterIcon />
+    <nav class="space-y-3 col-span-3 col-start-7">
+      <h4 class="font-bold uppercase">Menu</h4>
+      <ul>
+        <li><a href="apropos">À Propos</a></li>
+        <li><a href="mlg">Mentions légales</a></li>
+        <li><a href="contact">Formulaire de contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="space-y-3 col-span-3 col-start-10">
+      <h4 class="font-bold uppercase">Contact</h4>
+      <address>
+        6 Rue de la Chapelle<br />25200 Montbéliard<br />
+        <a href="tel:0619856350">06 19 85 63 50</a><br />
+        <a href="mailto:conservatoire@agglo-belfort.fr">antipasta@outlook.fr</a>
+      </address>
+    </div>
+
+    <nav class="col-span-3 col-start-7">
+      <h4 class="font-bold uppercase">Autre</h4>
+      <ul>
+        <li><a href="cgu">CGU</a></li>
+        <li><a href="ppd">Protection des données personnelles</a></li>
+        <li><a href="page404">Cookies</a></li>
+      </ul>
+    </nav>
+
+    <div class="space-y-3 col-span-3 col-start-10">
+      <h4 class="font-bold uppercase">Nous suivre</h4>
+      <ul class="flex gap-4">
+        <li>
+          <a href="https://facebook.com" aria-label="facebook"><FacebookIcon /></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" aria-label="instagram"><InstagramIcon /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" aria-label="twitter"><TwitterIcon /></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</template>

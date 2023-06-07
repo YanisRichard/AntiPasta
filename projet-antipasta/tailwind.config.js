@@ -14,6 +14,7 @@ module.exports = {
       GrisNoir: "#7e7e7e",
       FondCase: "#d9d9d9" ,
       black: "#000000",
+      whit: "#ffffff",
      },
     
      "fontSize": {
